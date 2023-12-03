@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,600&family=Montserrat:wght@400;500&family=Ruda&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+header {
+    width: 320px;
+    height: 750px;
+    flex-shrink: 0;
+    padding: 5px;
+    background: #000;
+    font-family: DM sans-serif;
+    font-size: 15px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+#logo {
+    width: 200px;
+}
+
+.home {
+    width: 95%;
+    border-radius: 6px;
+    background: #282828;
+}
+
+#left_middle {
+    height: 150px;
+}
+
+.liked_songs {
+    width: 31px;
+    height: 31px;
+    padding: 10px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+.episodes {
+    background-color: #004638;
+}
+
+main {
+    width: 95%;
+    padding: 5px;
+    padding-top: 10px;
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+}
+
+.arrow {
+    background-color: #131313;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#user {
+    background-color: #0A0A0A;
+    padding: 3px;
+    border-radius: 50px;
+}
+
+.playlist_item {
+    border-radius: 4px;
+    background: #303030;
+}
+
+.list_image {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+.playlist_item>img {
+    width: 70px;
+}
+
+#shows>div>a {
+    text-decoration: none;
+    color: #B3B3B3;
+}
+
+#plalistGrid {
+    width: 90%;
+}
+
+.card {
+    width: 22%;
+    height: 310px;
+    background: #181818;
+    padding: 15px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+#musicPlayer {
+    position: sticky;
+    bottom: 0px;
+    background: #181818;
+}
+
+.line-1 {
+    width: 80%;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #535353;
+}
+
+.line-2 {
+    width: 80%;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #C4C4C4;
+}
+
+.volume {
+    display: inline-block;
+    width: 40%;
+    height: 3px;
+    border-radius: 2.5px;
+    background: #C4C4C4;
+}
+
+#artist_title {
+    width: 200px;
+}
+
+#player {
+    width: 400px;
+}
+
+#right_options {
+    width: 250px
+}
