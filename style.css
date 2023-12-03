@@ -28,6 +28,7 @@ header {
 }
 
 .home {
+    display: inline-block;
     width: 95%;
     border-radius: 6px;
     background: #282828;
@@ -44,12 +45,26 @@ header {
     background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
 }
 
+a {
+    text-decoration: none;
+    color: #B3B3B3;
+
+}
+
+a>span {
+    transition: all 1s ease;
+}
+
+a>span:hover {
+    color: gray;
+}
+
 .episodes {
     background-color: #004638;
 }
 
 main {
-    width: 95%;
+    width: 100%;
     padding: 5px;
     padding-top: 10px;
     background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
@@ -68,6 +83,10 @@ main {
     border-radius: 50px;
 }
 
+#title_playlist>div>div:hover {
+    cursor: pointer;
+}
+
 .playlist_item {
     border-radius: 4px;
     background: #303030;
@@ -84,28 +103,36 @@ main {
     width: 70px;
 }
 
-#shows>div>a {
-    text-decoration: none;
-    color: #B3B3B3;
-}
+
 
 #plalistGrid {
-    width: 90%;
+    width: 100%;
 }
 
 .card {
-    width: 22%;
+    width: 250px;
     height: 310px;
     background: #181818;
     padding: 15px;
     padding-bottom: 0px;
     margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
 }
 
 #musicPlayer {
     position: sticky;
     bottom: 0px;
+    left: 0px;
+    right: 0px;
     background: #181818;
+}
+
+#player>div>svg:hover {
+    cursor: pointer;
 }
 
 .line-1 {
@@ -113,6 +140,12 @@ main {
     height: 5px;
     border-radius: 2.5px;
     background: #535353;
+}
+
+.line-1:hover,
+#right_options>svg:hover,
+.volume:hover {
+    cursor: pointer;
 }
 
 .line-2 {

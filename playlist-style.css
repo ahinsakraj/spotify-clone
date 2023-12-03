@@ -1,0 +1,165 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    color: #fff;
+}
+
+header {
+    width: 250px;
+    height: 750px;
+    flex-shrink: 0;
+    padding: 5px;
+    background: #000;
+    font-size: 12px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    /* position: relative; */
+}
+
+#logo {
+    width: 150px;
+}
+
+.home {
+    display: inline-block;
+    width: 95%;
+    border-radius: 6px;
+    background: #282828;
+}
+
+#left_middle {
+    height: 150px;
+}
+
+.liked_songs {
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+a {
+    text-decoration: none;
+}
+
+a>span {
+    transition: all 1s ease;
+}
+
+a>span:hover {
+    color: gray;
+}
+
+main {
+    background: linear-gradient(180deg, #719089 0%, #000 89.7%);
+    width: 100%;
+}
+
+#playlist_item>div>div:hover {
+    cursor: pointer;
+}
+
+.line-1:hover,
+#right_options>svg:hover,
+.volume:hover,
+#player>div>svg:hover{
+    cursor: pointer;
+}
+
+.light {
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+#song_title {
+    font-size: 70px;
+}
+
+
+#playlist {
+    background: linear-gradient(180deg, #344d4d 0%, #000 89.7%);
+}
+
+
+#album_date>span {
+    opacity: 0.7;
+    font-weight: 400;
+}
+
+#album_date>span:nth-child(2) {
+    padding-left: 450px;
+    padding-right: 280px;
+}
+
+.items {
+    border-radius: 5px;
+    background: #222524;
+}
+
+.song1 {
+    width: 200px;
+}
+
+.song1>img {
+    width: 50px;
+}
+
+.sont_title {
+
+    opacity: 1;
+    font-weight: 900;
+}
+
+#playlist_item p {
+    font-weight: 100;
+}
+
+.time {
+    width: 100px;
+}
+
+.time1 {
+    width: 60px;
+}
+
+#musicPlayer {
+    /* width: 100%; */
+    height: 100px;
+    position: sticky;
+    bottom: 0px;
+
+    background: #181818;
+}
+
+.line-1 {
+    width: 80%;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #C4C4C4;
+}
+
+
+.volume {
+    display: inline-block;
+    width: 40%;
+    height: 3px;
+    border-radius: 2.5px;
+    background: #C4C4C4;
+}
+
+#artist_title {
+    width: 300px;
+}
+
+#player {
+    width: 500px;
+}
+
+#right_options {
+    width: 250px
+}
